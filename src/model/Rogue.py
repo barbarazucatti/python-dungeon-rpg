@@ -1,5 +1,8 @@
-from model import Persona
+from model import Character
 
 
-class Rogue(Persona):
+class Rogue(Character):
     pass
+
+Rogue.special_action() 
+#Backstab.

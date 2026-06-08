@@ -1,5 +1,12 @@
-from model import Persona
+from model import Character
 
 
-class Fighter(Persona):
+class Fighter(Character):
     pass
+
+Fighter.special_action() 
+# Taunt.
+
+def protect_ally(target):
+    return
+

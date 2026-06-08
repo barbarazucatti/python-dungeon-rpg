@@ -1,5 +1,5 @@
-from model import Persona
+from model import Character
 
 
-class Boss(Persona):
+class Boss(Character):
     pass
